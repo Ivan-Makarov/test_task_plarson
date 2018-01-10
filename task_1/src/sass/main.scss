@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+	max-height: 100vh;
+}
+
+.main {
+	display: flex;
+    flex: 1;
+	overflow: hidden;
+}
+
+.header {
+	height: 50px;
+	background-color: #cce;
+}
+
+.footer {
+	height: 100px;
+	background-color: #ecc;
+}
+
+.users {
+	width: 200px;
+	background-color: #cec;
+	overflow: auto;
+}
+
+.chatroom {
+	flex: 1;
+	background-color: #dfd;
+	overflow: auto;
+}
+
+.chat-msg {
+	margin-bottom: 10px;
+}
