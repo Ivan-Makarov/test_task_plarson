@@ -1,6 +1,6 @@
 CREATE TABLE Months (
-	Month VARCHAR(255)
-    Days VARCHAR(255)
+	Month VARCHAR(255),
+	Days VARCHAR(255)
 );
 
 INSERT INTO Months
